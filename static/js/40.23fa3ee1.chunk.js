@@ -1,0 +1,2 @@
+(this.webpackJsonpwindowbuilder=this.webpackJsonpwindowbuilder||[]).push([[40],{1022:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return r}));var a=n(0),o=n.n(a),s=n(1005);function r(t){const[e,n]=o.a.useState("Получаем файл с сервера...");let a=location.pathname.replace("/help","");return a.startsWith("/")?a=a.substr(1):a||t.history.push(location.pathname+"/"),fetch(`${$p.job_prm.docs_root}${a||"index.md"}`).then(t=>t.text()).then(t=>{n(t)}).catch(t=>n(t.message||t)),o.a.createElement(s.a,{markdown:e})}}}]);
+//# sourceMappingURL=40.23fa3ee1.chunk.js.map

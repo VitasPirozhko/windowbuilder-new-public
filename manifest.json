@@ -1,25 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "lang": "ru",
+  "name": "Заказ дилера",
+  "short_name": "Заказ",
+  "description": "Расчет и заказ изделий онлайн",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "./imgs/fav-wnd.png",
+      "sizes": "32x32",
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+      "src": "./imgs/fav-md144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }],
+  "background_color": "#ffffff",
+  "splash_screens": [{
+    "src": "./imgs/splash.gif",
+    "sizes": "256x64"
+  }],
+  "scope": "/",
+  "start_url": "./index.html",
+  "display": "fullscreen"
 }
